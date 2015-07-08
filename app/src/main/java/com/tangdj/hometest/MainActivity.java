@@ -27,6 +27,8 @@ public class MainActivity extends ActionBarActivity {
     @AfterViews
     void initView() {
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().getThemedContext();
 
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.app_name, R.string.app_name);
         drawerLayout.setDrawerListener(drawerToggle);
