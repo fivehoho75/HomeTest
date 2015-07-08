@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 21
@@ -21,5 +22,15 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:22.0.0'
+    apt "org.androidannotations:androidannotations:3.3.1"
+    compile 'org.androidannotations:androidannotations-api:3.3.1'
+    compile 'org.androidannotations:androidannotations:3.3.1'
+    compile 'com.android.support:appcompat-v7:21.0.0'
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+        resourcePackageName 'com.tangdj.hometest'
+    }
 }
