@@ -3,4 +3,29 @@
     <color name="bi">#ff009ee0</color>
     <color name="bi_dark">#ff0091cd</color>
     <color name="bi_accent">#ffff5722</color>
+
+    <color name="background">#ffe7e7e7</color>
+    <color name="divider">#ffbcbcbc</color>
+    <color name="menu_focused">#FFBB33</color>
+    <color name="menu_selected">#FFBB33</color>
+    <color name="menu_unselected">#00000000</color>
+
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="holo_blue">#ff25b9ea</color>
+    <color name="holo_orange">#ffbb33</color>
+    <color name="lvDividerColor">#E0E0E0</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_purple_light">#ffaa66cc</color>
+    <color name="holo_purple_dark">#ff9933cc</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="transparent">#00000000</color>
+
 </resources>

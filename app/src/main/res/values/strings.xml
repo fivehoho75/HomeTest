@@ -3,4 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+    <string name="navi_home">홈</string>
+    <string name="navi_bank">은행</string>
 </resources>

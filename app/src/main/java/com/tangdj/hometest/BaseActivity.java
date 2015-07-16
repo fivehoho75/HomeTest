@@ -16,6 +16,7 @@ import android.widget.TextView;
  * Created by five on 2015-07-14.
  */
 public class BaseActivity extends ActionBarActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
